@@ -26,10 +26,6 @@ function setup() {
     rect(18, 15, 5, 3);
     rect(19, 14, 3, 5);
     
-  // // second sun
-  //   fill('rgba(255, 205, 210, 1)');
-  //   rect(21, 11, 2, 2);
-    
   //   foreground
     
     fill('rgba(165, 214, 167, 1)');
@@ -38,9 +34,7 @@ function setup() {
     fill('rgba(129, 199, 132, 1)');
     rect(0, 22, 24, 24);
 
-
     saveCanvas(c, 'myCanvas', 'jpg');
-
 
 }
 
