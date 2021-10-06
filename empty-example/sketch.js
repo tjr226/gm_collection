@@ -1,7 +1,7 @@
 function setup() {
   let c = createCanvas(24, 24);
-  
 
+  // turn off additional borders
   strokeWeight(0);
   
   //   sky
@@ -10,6 +10,7 @@ function setup() {
     rect(0, 0, 24, 16);
     
   //   rayleigh
+  //   (three different colors)
     
     fill('rgba(255, 336, 179, 1)');
     rect(0, 16, 24, 16);
@@ -21,12 +22,14 @@ function setup() {
     rect(0, 20, 24, 20);
     
   // sun
+  // (sun is made up of two overlaid rectangles - one 3x5, one 5x3)
     
     fill('rgba(240, 98, 145, 1)');
     rect(18, 15, 5, 3);
     rect(19, 14, 3, 5);
     
   //   foreground
+  //   (two different colors)
     
     fill('rgba(165, 214, 167, 1)');
     rect(0, 21, 24, 21);
